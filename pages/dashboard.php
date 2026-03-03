@@ -31,9 +31,11 @@
               <div class="text-start">
                 <div class="fw-semibold mb-0">Username</div>
                 <small class="mb-0">Role</small>
+                
               </div>
 
             </button>
+
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="profile.php"> <i class="fa-solid fa-user"></i> Profile</a></li>
               <li><a class="dropdown-item" href="#"> <i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a></li>

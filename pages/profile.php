@@ -18,6 +18,7 @@
       <a class="navbar-brand" href="dashboard.php"><i class="fa-solid fa-angle-left"></i> Back to dashboard</a>
     </div>
   </nav>
+
   <div class="row mx-5">
     <div class="col-lg-5">
       <div class="mt-5 border rounded bg-white p-5 mx-5 d-flex flex-column align-items-center justify-content-center">
@@ -38,6 +39,7 @@
               <label for="name" class="form-label">Full Name</label>
           <input type="text" id="name" class="form-control mb-3">
           <label for="email" class="form-label">Email</label>
+          
           <input type="email" id="email" class="form-control mb-3">
            <label for="bio" class="form-label">Short Bio</label>
             <textarea class="form-control mb-3" id="bio"></textarea>
