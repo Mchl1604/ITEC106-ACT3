@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <!-- Header navigation -->
   <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Dashboard</a>
@@ -17,6 +18,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- User dropdown menu -->
         <div class="d-flex ms-auto">
           <div class="dropdown">
             <button class="btn dropdown-toggle d-flex align-items-center gap-3 text-white border"
@@ -47,10 +49,12 @@
 
 
 
+  <!-- Main content area -->
   <div class="container mt-3 d-flex justify-content-between">
     <h3>Manage Users</h3>
     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newUserModal"> <i class="fa-solid fa-plus"></i> Add User</button>
   </div>
+  <!-- User table -->
   <div class="table-responsive-lg container mt-3">
     <table class="table table-light table-striped table-hover table-bordered">
       <thead class="table-dark">
@@ -123,7 +127,8 @@
     </table>
   </div>
 
-   <!-- Add New User Modal -->
+  <!-- Modals for add, edit, and delete -->
+  <!-- Add New User Modal -->
   <div class="modal fade" id="newUserModal" tabindex="-1" aria-labelledby="newUserModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
